@@ -249,6 +249,7 @@
             this.btnCrearCuenta.TabIndex = 9;
             this.btnCrearCuenta.Text = "Crear Cuenta";
             this.btnCrearCuenta.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // chckMostrarPass
             // 

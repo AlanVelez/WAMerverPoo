@@ -52,5 +52,12 @@ namespace WAMerverPoo
         {
             this.WindowState=FormWindowState.Minimized;
         }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            FrmCrearCuenta crearCuenta = new FrmCrearCuenta();
+            this.Hide();
+            crearCuenta.Show();
+        }
     }
 }
