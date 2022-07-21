@@ -29,6 +29,7 @@ namespace WAMerverPoo
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Cerrando aplicacion.");
             Application.Exit();
         }
 
@@ -58,6 +59,13 @@ namespace WAMerverPoo
             FrmCrearCuenta crearCuenta = new FrmCrearCuenta();
             this.Hide();
             crearCuenta.Show();
+        }
+
+        private void btnNotPass_Click(object sender, EventArgs e)
+        {
+            FrmContraOlvidada notPass = new FrmContraOlvidada();
+            this.Hide();
+            notPass.Show();
         }
     }
 }

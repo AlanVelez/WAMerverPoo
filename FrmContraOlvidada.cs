@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WAMerverPoo
 {
-    public partial class FrmCrearCuenta : Form
+    public partial class FrmContraOlvidada : Form
     {
-        public FrmCrearCuenta()
+        public FrmContraOlvidada()
         {
             InitializeComponent();
         }
@@ -24,10 +24,10 @@ namespace WAMerverPoo
             frm.Show();
         }
 
-        private void btnCerrar_Click(object sender, EventArgs e)
+        private void btnMin_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("La aplicacion se cerrara.");
-            Application.Exit();
+            this.WindowState = FormWindowState.Minimized;
+
         }
 
         private void btnMax_Click(object sender, EventArgs e)
@@ -45,9 +45,10 @@ namespace WAMerverPoo
 
         }
 
-        private void btnMin_Click(object sender, EventArgs e)
+        private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            MessageBox.Show("Cerrando aplicacion.");
+            Application.Exit();
         }
     }
 }

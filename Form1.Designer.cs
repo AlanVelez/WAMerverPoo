@@ -219,6 +219,7 @@
             this.btnNotPass.TabIndex = 11;
             this.btnNotPass.Text = "¿Has olvidado tu contraseña?";
             this.btnNotPass.UseVisualStyleBackColor = false;
+            this.btnNotPass.Click += new System.EventHandler(this.btnNotPass_Click);
             // 
             // btnIniciarSesion
             // 
@@ -276,6 +277,7 @@
             this.txtPass.Location = new System.Drawing.Point(133, 225);
             this.txtPass.Multiline = true;
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(561, 53);
             this.txtPass.TabIndex = 6;
             // 
@@ -311,9 +313,9 @@
             this.lblCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.lblCorreo.Location = new System.Drawing.Point(129, 38);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(187, 24);
+            this.lblCorreo.Size = new System.Drawing.Size(388, 24);
             this.lblCorreo.TabIndex = 3;
-            this.lblCorreo.Text = "Correo electronico";
+            this.lblCorreo.Text = "Correo electronico o nombre de usuario";
             // 
             // Form1
             // 
