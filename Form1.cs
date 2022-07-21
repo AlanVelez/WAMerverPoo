@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace WAMerverPoo
         {
             InitializeComponent();
         }
-
+        SqlConnection connection = new SqlConnection("server=LAPTOP-6R78LGLH\SQLEXPRES ; database = sistemaMerver ; INTREGATED SECURITY = true ");
         private void btnMin_MouseClick(object sender, MouseEventArgs e)
         {
             System.Windows.Forms.Cursor.Current = System.Windows.Forms.Cursors.Hand;
@@ -66,6 +67,23 @@ namespace WAMerverPoo
             FrmContraOlvidada notPass = new FrmContraOlvidada();
             this.Hide();
             notPass.Show();
+        }
+
+        private void btnIniciarSesion_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+            SqlCommand comando = new SqlCommand("SELECT nombreUsuario, contrasena FROM tablaUsuario WHERE nombreUsuario = @vAdmin AND contrasena = @vlinceUn", connection);
+            comando.Parameters.AddWithValue("@vAdmin", txtCorreo.Text);
+            comando.Parameters.AddWithValue("@vlinceUn", txtPass.Text);
+
+            SqlDataReader lector = comando.ExecuteReader();
+
+            if (lector.Read())
+            {
+                connection.Close();
+                FrmCrearCuenta frmCrear = new FrmCrearCuenta();
+                frmCrear.Show();
+            }
         }
     }
 }

@@ -132,11 +132,11 @@
             // lblMerver
             // 
             this.lblMerver.AutoSize = true;
-            this.lblMerver.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMerver.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMerver.ForeColor = System.Drawing.Color.White;
             this.lblMerver.Location = new System.Drawing.Point(22, 12);
             this.lblMerver.Name = "lblMerver";
-            this.lblMerver.Size = new System.Drawing.Size(80, 24);
+            this.lblMerver.Size = new System.Drawing.Size(79, 25);
             this.lblMerver.TabIndex = 0;
             this.lblMerver.Text = "Merver";
             // 
@@ -156,11 +156,11 @@
             // 
             this.lblIniciarSesion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblIniciarSesion.AutoSize = true;
-            this.lblIniciarSesion.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIniciarSesion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.lblIniciarSesion.Location = new System.Drawing.Point(369, 145);
             this.lblIniciarSesion.Name = "lblIniciarSesion";
-            this.lblIniciarSesion.Size = new System.Drawing.Size(136, 24);
+            this.lblIniciarSesion.Size = new System.Drawing.Size(129, 25);
             this.lblIniciarSesion.TabIndex = 2;
             this.lblIniciarSesion.Text = "Iniciar Sesión";
             // 
@@ -168,11 +168,11 @@
             // 
             this.lblBienvenido.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Font = new System.Drawing.Font("Inter", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.lblBienvenido.Location = new System.Drawing.Point(343, 106);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(185, 34);
+            this.lblBienvenido.Size = new System.Drawing.Size(185, 32);
             this.lblBienvenido.TabIndex = 1;
             this.lblBienvenido.Text = "¡Bienvenido!";
             // 
@@ -211,7 +211,7 @@
             this.btnNotPass.BackColor = System.Drawing.Color.Transparent;
             this.btnNotPass.FlatAppearance.BorderSize = 0;
             this.btnNotPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNotPass.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNotPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNotPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.btnNotPass.Location = new System.Drawing.Point(378, 301);
             this.btnNotPass.Name = "btnNotPass";
@@ -228,7 +228,7 @@
             this.btnIniciarSesion.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.btnIniciarSesion.FlatAppearance.BorderSize = 0;
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesion.ForeColor = System.Drawing.Color.White;
             this.btnIniciarSesion.Location = new System.Drawing.Point(490, 390);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
@@ -236,13 +236,14 @@
             this.btnIniciarSesion.TabIndex = 10;
             this.btnIniciarSesion.Text = "Iniciar Sesión";
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
+            this.btnIniciarSesion.Click += new System.EventHandler(this.btnIniciarSesion_Click);
             // 
             // btnCrearCuenta
             // 
             this.btnCrearCuenta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCrearCuenta.FlatAppearance.BorderSize = 0;
             this.btnCrearCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearCuenta.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCuenta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.btnCrearCuenta.Location = new System.Drawing.Point(133, 390);
             this.btnCrearCuenta.Name = "btnCrearCuenta";
@@ -259,11 +260,11 @@
             this.chckMostrarPass.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.chckMostrarPass.FlatAppearance.BorderSize = 3;
             this.chckMostrarPass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.chckMostrarPass.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chckMostrarPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chckMostrarPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.chckMostrarPass.Location = new System.Drawing.Point(133, 309);
             this.chckMostrarPass.Name = "chckMostrarPass";
-            this.chckMostrarPass.Size = new System.Drawing.Size(211, 28);
+            this.chckMostrarPass.Size = new System.Drawing.Size(198, 29);
             this.chckMostrarPass.TabIndex = 7;
             this.chckMostrarPass.Text = "Mostrar contraseña";
             this.chckMostrarPass.UseVisualStyleBackColor = true;
@@ -272,7 +273,7 @@
             // 
             this.txtPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPass.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPass.ForeColor = System.Drawing.Color.Black;
             this.txtPass.Location = new System.Drawing.Point(133, 225);
             this.txtPass.Multiline = true;
@@ -285,11 +286,11 @@
             // 
             this.lblPass.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPass.AutoSize = true;
-            this.lblPass.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.lblPass.Location = new System.Drawing.Point(129, 181);
             this.lblPass.Name = "lblPass";
-            this.lblPass.Size = new System.Drawing.Size(119, 24);
+            this.lblPass.Size = new System.Drawing.Size(114, 25);
             this.lblPass.TabIndex = 5;
             this.lblPass.Text = "Contraseña";
             // 
@@ -297,7 +298,7 @@
             // 
             this.txtCorreo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtCorreo.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.ForeColor = System.Drawing.Color.Black;
             this.txtCorreo.Location = new System.Drawing.Point(133, 82);
             this.txtCorreo.Multiline = true;
@@ -309,11 +310,11 @@
             // 
             this.lblCorreo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCorreo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(99)))), ((int)(((byte)(191)))));
             this.lblCorreo.Location = new System.Drawing.Point(129, 38);
             this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(388, 24);
+            this.lblCorreo.Size = new System.Drawing.Size(354, 25);
             this.lblCorreo.TabIndex = 3;
             this.lblCorreo.Text = "Correo electronico o nombre de usuario";
             // 
