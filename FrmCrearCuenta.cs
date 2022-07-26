@@ -49,5 +49,34 @@ namespace WAMerverPoo
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void FrmCrearCuenta_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'dBMerverSADataSet.Usuario' Puede moverla o quitarla según sea necesario.
+            this.usuarioTableAdapter.Fill(this.dBMerverSADataSet.Usuario);
+
+        }
+
+        private void btnCrearCuenta_Click(object sender, EventArgs e)
+        {
+            //Creamos las variables para los textbox correspondientes
+            int vIdUsuario, vTelefono;
+            string vNombreUsuario, vContraseña, vNacimiento, vCorreo;
+
+            vIdUsuario = int.Parse(idUsuarioTextBox.Text);
+            vTelefono = (int)long.Parse(telefonoTextBox.Text);
+            //Asignamos los textbox
+            vNombreUsuario = nombreUsuarioTextBox.Text;
+            vContraseña = contraseñaTextBox.Text;
+            vNacimiento = fechaNacimientoTextBox.Text;
+            vCorreo = correoElectronicoTextBox.Text;
+
+            //Iniciamos insercion
+            this.usuarioTableAdapter.Insert(vIdUsuario, vNombreUsuario, vContraseña, vTelefono, vNacimiento, vCorreo);
+
+            MessageBox.Show("Cuenta creada con exito!!!");
+
+
+        }
     }
 }
